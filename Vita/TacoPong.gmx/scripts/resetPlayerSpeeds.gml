@@ -1,0 +1,10 @@
+xSpeed = 6;
+playerOne.pSpeed = xSpeed;
+playerTwo.pSpeed = xSpeed;
+playerCPU.pSpeed = xSpeed;
+instP1.image_xscale = .1;
+instP1.image_yscale = .12;
+instP2.image_xscale = .1;
+instP2.image_yscale = .12;
+instCPU.image_xscale = .1;
+instCPU.image_yscale = .12;
