@@ -7,14 +7,14 @@ A free open source Taco Bell themed version of the classic game Pong. It has two
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 PC:
-```
+
 Ensure you have Game Maker Studio 2 installed and open the tacopong.yyp project file. The GMS IDE should load all files and you should be free to get to work modifying and updating. The code is not super clean and is not heavily commented due to the rapid development of the project. The Windows version should be able to compile and run without flaw but builds have not been tested on OSX and Ubuntu.
-```
+
 
 Vita:
-```
+
 Ensure you have Game Maker Studio 1.49 installed and open the tacopong.gmx project file. The GMS IDE should load all files and you should be free to get to work modifying and updating. The code is not super clean and is not heavily commented due to the rapid development of the project (though this may change in updates). You will need to use SilicaAndPina's GayMaker utility to compile the project into a Vita compatible VPK.
-```
+
 
 
 ### Prerequisites
@@ -28,8 +28,8 @@ GayMaker 1.51 (only required for vita version compilation)
 
 ## Deployment
 
-For Windows you should be fine to just compile using the internal GMS compiler and assembler. This project is untested on Mac, Ubuntu, Android and iOS so building for those systems may work but is officially unsupported.
-For Playstation Vita you will need to import the .gmx project file from the game (directly or modified) into SilicaAndPina's GayMaker utility while also providing all required System icons and backgrounds (specifications can be found in the software). Make sure GMS 1.4999 is selected in the version selecter and build the project. You should receive a compiled VPK. You will need a modified Playstation Vita to install your VPK package. This project is fully supported and tested on PS Vita fw versions 3.60 and 3.65 with Henkaku Enso installed. It has not been tested on more recent firmware so anything past version 3.65Enso is not officially supported.
+For Windows you should be fine to just compile using the internal GMS compiler and assembler. This project is untested on Mac, Ubuntu, Android and iOS so building for those systems may work but is officially unsupported. <br />
+For Playstation Vita you will need to import the .gmx project file from the game (directly or modified) into SilicaAndPina's GayMaker utility while also providing all required System icons and backgrounds (specifications can be found in the software). Make sure GMS 1.4999 is selected in the version selecter and build the project. You should receive a compiled VPK. You will need a modified Playstation Vita to install your VPK package. This project is fully supported and tested on PS Vita fw versions 3.60 and 3.65 with Henkaku Enso installed. It has not been tested on more recent firmware so anything past version 3.65 Enso is not officially supported.<br />
 
 ## Contributing
 
@@ -46,10 +46,64 @@ This project is licensed under the GPLv3 License - see the [LICENSE.md](LICENSE.
 
 ## Acknowledgments
 
+```
 See the included Credits file but in brief:
 Mike Rosenberg - developer
 Vinson Huang - had the initial concept and idea
 p0ss @ OpenGameArt - Audio tracks
 SilicaAndPina - Developing GayMaker Vita compiler and assembler
 Taco Bell - Creating all assets used and for being the best fucking fast food around
+```
 
+## Binaries
+
+All Binaries are available (and may be more recently updated) via the Releases page but the initial builds can be downloaded at:
+
+Vita - https://github.com/MikeMakesMinigames/TacoPong/releases/download/v1.0/tacopong.VPK <br /> 
+Windows - https://github.com/MikeMakesMinigames/TacoPong/releases/download/v1.0win/tacopong-win.zip <br /> 
+
+## Controls
+
+Game Controls On Vita:<br />
+<br />
+All Menu's
+```
+D-Pad to navigate, X button to select, O button to back out
+```
+
+PvP
+```
+Left D-Pad Up/Down or Left Stick Up/Down to move player 1
+Right D-Pad Up/Down or Right Stick Up/Down to move player 2
+```
+
+PvE
+```
+Left D-Pad Up/Down or Left Stick Up/Down to move player
+```
+
+Game Controls On PC:<br />
+
+All Menu's<br />
+```
+S/W/Up/Down to navigate, enter to select, escape to back out
+```
+
+PvP
+```
+S/W to move player 1
+Up/Down to move player 2
+```
+
+PvE
+```
+S/W to move player 1
+```
+
+## Power Ups
+In game there are a few powerups. The last person to hit the cinnebon delight before the delight hits the power up gets the bonus. They are listed below:<br />
+```
+Diablo Sauce: Expands paddle size in length
+Baja Blast: Increases paddle speed
+Freeze: Slows opponents paddle speed
+```
